@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href= "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" >
+    <title>Templete JS</title>
+</head>
+<body>
+
+    <!-- Start Settings -->
+    <div class="settings">
+        <div class="icon-content">
+            <i class="fa-solid fa-gear setting-icon"></i>
+        </div>
+        <div class="setting-content">
+            <div class="color-option option" style="margin-top: 25px;">
+                <h4>Colors</h4>
+                <ul class="color-list">
+                    <li class="active" data-color="rgb(255 240 50)"></li>
+                    <li data-color="#ff00baa6"></li>
+                    <li data-color="#51dfe9f5"></li>
+                    <li data-color="#51a9e9"></li>
+                    <li data-color="#74c91af0"></li>
+                </ul>
+            </div>
+            <div class="background option">
+                <h4>Randam Background</h4>
+                <button class="yes active" data-background="yes">Yes</button>
+                <button class="no" data-background="no">No</button>
+            </div>
+            <div class="bulletsSettings option">
+                <h4>Show Bullets</h4>
+                <button class="yes active" data-show="yes">Yes</button>
+                <button class="no" data-show="no">No</button>
+            </div>
+            <div style="position: relative;">
+                <button class="reset">Reset</button>
+            </div>
+            
+        </div>
+    </div>
+    <!-- End Settings -->
+
+    <!-- Start Navigation Bullets -->
+    <div class="nav-bullets">
+
+        <div class="bullets" data-section=".about-content"><div class="tooltip">About Us</div> </div>
+        <div class="bullets" data-section=".skills-content"><div class="tooltip">Our Skills</div> </div>
+        <div class="bullets" data-section=".gallery-content"><div class="tooltip">Our Gallery</div></div>
+        <div class="bullets" data-section=".timeline-content"><div class="tooltip">TimeLine </div>  </div>
+        <div class="bullets" data-section=".feature-content"><div class="tooltip">Our Feature</div></div>
+        <div class="bullets" data-section=".testimonials-content"><div class="tooltip">Testimonials</div></div>
+
+    </div>
+    <!-- End Navigation Bullets -->
+
+    <!-- Start Landing Page -->
+    
+    <div class="landing-page ">
+
+        <div class="overlay"></div>
+
+        <!-- Start Header -->
+        <div class="header">
+            <div class="logo">Special Design</div>
+            <ul class="nav">
+                <li><a class="active" href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!-- End Header -->
+
+        <!-- Start page content -->
+        <div class="introduction">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <!-- End page content -->
+    </div>
+    
+    <!-- End Landing Page -->
+
+    <!-- Start About  -->
+    
+    <div class="about-content">
+        <div class="info">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore quidem quasi adipisci. Voluptas aperiam at sapiente ullam est consequuntur, voluptatibus corrupti adipisci cumque vitae quibusdam voluptatum animi! Quis, doloribus!</p>
+        </div>
+        <div class="image">
+            <img src="imgs/about-us.jpg" alt="">
+        </div>
+    </div>
+    
+    <!-- End About  -->
+
+    <!-- Start Skills Content -->
+    <div class="container" id="skills">
+        <div class="skills-content">
+            <h2>Our Skills</h2>
+            <div class="skill-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-process">
+                    <span data-skill="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">CSS</div>
+                <div class="skill-process">
+                    <span data-skill="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-process">
+                    <span data-skill="70%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Java</div>
+                <div class="skill-process">
+                    <span data-skill="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Hibernate</div>
+                <div class="skill-process">
+                    <span data-skill="70%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">SQL</div>
+                <div class="skill-process">
+                    <span data-skill="85%"></span>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <!-- End Skills Content -->
+
+    <!-- start Gallery Content-->
+    <div class="gallery-content ">
+        <h2>Our Gallery</h2>
+        <div class="images-box">
+            <img src="imgs/01.jpg" alt="Image One">
+            <img src="imgs/02.jpg" alt="Image Two">
+            <img src="imgs/03.jpg" alt="Image Three">
+            <img src="imgs/04.jpg" alt="Image Four">
+            <img src="imgs/05.jpg" alt="Image Five">
+            <img src="imgs/06.png" alt="Image Six">
+            <img src="imgs/07.jpg" alt="">
+            <img src="imgs/08.jpg" alt="">
+            <img src="imgs/09.jpg" alt="">
+            <img src="imgs/10.jpg" alt="">
+        </div>
+    </div>
+    <!-- End Gallery Content-->
+
+    <!-- Start TimeLine Content-->
+    <div class="container">
+        <div class="timeline-content">
+            <div class="year">2018</div>
+            <div class="content">
+                <div class="left info">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et suscipit quos nemo totam quam debitis eaque iure aliquid earum, dolore accusamus repellendus nulla animi eos. Eligendi quaerat cupiditate ad doloribus?</p>
+                </div>
+                <div class="clear"></div>
+                <div class="right info">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et suscipit quos nemo totam quam debitis eaque iure aliquid earum, dolore accusamus repellendus nulla animi eos. Eligendi quaerat cupiditate ad doloribus?</p>
+                </div>
+                <div class="clear"></div>
+                <div class="right info">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et suscipit quos nemo totam quam debitis eaque iure aliquid earum, dolore accusamus repellendus nulla animi eos. Eligendi quaerat cupiditate ad doloribus?</p>
+                </div>
+            </div>
+
+            <div class="year">2020</div>
+            <div class="content">
+                <div class="left info">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et suscipit quos nemo totam quam debitis eaque iure aliquid earum, dolore accusamus repellendus nulla animi eos. Eligendi quaerat cupiditate ad doloribus?</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- End TimeLine Content-->
+
+    <!-- Start Feature -->
+    <div class="feature-content ">
+        <h2>Our Feature</h2>
+        <div class="container-feat">
+            <div class="feat-box">
+                <img src="imgs/Icon_01.png" alt="">
+                <h4>Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat sapiente iure libero</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_03.png" alt="">
+                <h4>Markting</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat sapiente iure libero</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_02.png" alt="">
+                <h4>Hosting</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat sapiente iure libero</p>
+            </div><div class="feat-box">
+                <img src="imgs/Icon_04.png" alt="">
+                <h4>DataBase</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat sapiente iure libero</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_05.png" alt="">
+                <h4>Cloud And Server</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat sapiente iure libero</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_06.png" alt="">
+                <h4>Seo</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat sapiente iure libero</p>
+            </div>
+        </div>
+ 
+    </div>
+    <!-- End Feature -->
+
+    <!-- Start Testimonials -->
+    <div class="testimonials-content ">
+        <h2>Testimonials</h2>
+        <div class="test-content">
+            <div class="test-box">
+                <p>Iam very Happy With Product,Its Amazing And I revecive It Very Fast before The Dedline </p>
+                <div class="person-info">
+                    <img src="http://placehold.it/80/EEE" alt="">
+                    <div class="content-text">
+                    <h4>Shahd Elshamy</h4>
+                    <p>Software Engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="test-box">
+                <p>Iam very Happy With Product,Its Amazing And I revecive It Very Fast before The Dedline </p>
+                <div class="person-info">
+                    <img src="http://placehold.it/80/EEE" alt="">
+                    <div class="content-text">
+                    <h4>Bassant Adel</h4>
+                    <p>Doctor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="test-box">
+                <p>Iam very Happy With Product,Its Amazing And I revecive It Very Fast before The Dedline </p>
+                <div class="person-info">
+                    <img src="http://placehold.it/80/AAA" alt="">
+                    <div class="content-text">
+                        <h4>Shorouk Wael</h4>
+                        <p>Teacher</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonials -->
+
+    <!-- Start Contact -->
+    <div class="container-contact ">
+        <div class="overlay"></div>
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name:" name="name">
+                    <input type="text" placeholder="Your Age:" name="age">
+                    <input type="email" placeholder="Your mail:" name="mail">
+                    <input type="text" placeholder="Subject:" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Massage"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <script src="js/main.js"></script>
+</body>
+</html>
